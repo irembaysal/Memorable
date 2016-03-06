@@ -1,0 +1,14 @@
+group 'tr.com.memorable'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.jboss.resteasy:resteasy-jaxrs:3.0.16.Final',
+            'org.jboss.resteasy:jaxrs-api:3.0.12.Final'
+
+}
